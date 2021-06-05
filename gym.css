@@ -4,8 +4,10 @@ body{
     padding: 0px;
     background: url('bg.jpg');
     font-weight: bold;
-    height: 100px;
+    height: 1000px;
     background-repeat: no-repeat;
+    background-size: 100vw;
+    
     
 
 }
@@ -15,7 +17,9 @@ body{
   margin: 0px;
   background-color: rgb(30, 19, 126);
   height: 57px;
-  position: sticky;
+  position: fixed;
+  width: 100vw;
+  top: 0px;
   
 
 }
